@@ -1,0 +1,26 @@
+#employee-list {
+    height: 240px;
+    width: 40vw;
+    display: flex;
+    flex-flow: row wrap;
+    overflow-y: scroll;
+    justify-content: space-around;
+    position: absolute;
+    top: 30vh;
+    left: 30vw;
+    outline: 5px ridge rgb(192, 214, 252);
+    background-color: snow;
+    scrollbar-color: rgb(19, 39, 130) rgb(192, 235, 252);
+}
+
+@media screen and (max-width: 450px) {
+    #employee-list {
+        width: 196px;
+        height: 211px;
+        gap: 10px 0;
+    }
+
+    #employee-list > a {
+        margin: 0;
+    }
+}

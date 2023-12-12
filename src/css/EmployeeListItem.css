@@ -1,0 +1,37 @@
+.employee {
+    width: 200px;
+    background-color: rgb(192, 235, 252);
+}
+
+.employee-name,
+.employee-email {
+    background-color: rgb(192, 235, 252);
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(192, 235, 252);
+}
+
+img {
+    border-radius: 50%;
+}
+
+.employee-name {
+    color: snow;
+    text-shadow: rgb(19, 39, 130) -2px 1px 3px;
+}
+
+.employee-email {
+    font-style: italic;
+    color: dodgerblue;
+}
+
+@media screen and (max-width: 450px) {
+    .employee {
+        width: 190px;
+        height: inherit;
+        margin: 0;
+    }
+}

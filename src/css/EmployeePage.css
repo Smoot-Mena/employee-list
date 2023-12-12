@@ -1,0 +1,14 @@
+#employee-page {
+    width: 400px;
+    text-align: center;
+    margin-top: 10vh;
+    margin-left: 35vw;
+    background-color: rgb(192, 235, 252);
+    outline: 5px ridge rgb(192, 214, 252);
+
+}
+
+#employee-page > .employee-name,
+#employee-page > .employee-email {
+    background-color: transparent;
+}

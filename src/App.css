@@ -1,0 +1,21 @@
+*,
+::after,
+::before {
+    margin: 5px;
+    padding: 2px;
+    font-family: "Century Gothic", "Courier New", serif;
+    background-color: azure;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: snow;
+    outline: 4px ridge rgb(192, 214, 252);
+    border: none;
+}
+
+input {
+    background-color: snow;
+    outline: 4px ridge rgb(192, 214, 252);
+}

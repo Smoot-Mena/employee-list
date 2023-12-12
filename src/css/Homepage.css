@@ -1,0 +1,11 @@
+#Homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    gap: 50px;
+}
+
+#container {
+    display: flex;
+}

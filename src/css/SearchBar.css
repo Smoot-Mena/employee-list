@@ -1,0 +1,11 @@
+#search-bar {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+#search-bar > input {
+    padding: 5px;
+    border: 4px solid rgb(192, 235, 252);
+    text-align: center;
+    background-color: snow;
+}
